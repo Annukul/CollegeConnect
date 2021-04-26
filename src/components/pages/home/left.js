@@ -6,7 +6,7 @@ export const Left = () => {
         <div className="left-content-box">
             <div className="left-options">
                 <div className="side-profile">
-                    <img src={avatar} alt="Avatar" /><span><a href="#">Annukul</a></span>
+                    <img src={avatar} alt="Avatar" /><span><a href="/my-profile">Annukul</a></span>
                 </div>
                 <ul>
                     <li><a href="#"><i className="fas fa-university"></i><span>College</span></a></li>
