@@ -10,12 +10,12 @@ const Login = () => {
                     <p className="login_message">Welcome back, please login back to your account.</p>
                     <form action="">
                         <div className="form_inputs">
-                            <label for="email">Email address</label>
-                            <input type="text" />
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" />
                         </div>
                         <div className="form_inputs">
-                            <label for="password">Password</label>
-                            <input type="password" />
+                            <label for="password">Password:</label>
+                            <input type="password" name="password" />
                         </div>
                         <div className="rm_fp">
                             <div className="rm">
@@ -24,7 +24,7 @@ const Login = () => {
                             <a href="#">Forgot password?</a>
                         </div>
                         <div className="form_submits">
-                            <button type="submit">Login</button>
+                            <button type="submit" name="login">Login</button>
                             <a href="/signup">Sign up</a>
                         </div>
                     </form>

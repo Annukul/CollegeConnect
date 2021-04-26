@@ -11,22 +11,22 @@ const Signup = () => {
                     <form action="">
                         <div className="form_inputs">
                             <label for="Name">Name:</label>
-                            <input type="text" />
+                            <input type="text" name="name" />
                         </div>
                         <div className="form_inputs">
                             <label for="email">Email:</label>
-                            <input type="text" />
+                            <input type="email" name="email" />
                         </div>
                         <div className="form_inputs">
                             <label for="password">Password:</label>
-                            <input type="password" />
+                            <input type="password" name="password" />
                         </div>
                         <div className="form_inputs">
                             <label for="confirm_password">Confirm password:</label>
-                            <input type="text" />
+                            <input type="password" name="confirm_password" />
                         </div>
                         <div className="form_submits">
-                            <button type="submit">Signup</button>
+                            <button type="submit" name="signup">Signup</button>
                             <a href="/login">Login</a>
                         </div>
                     </form>
